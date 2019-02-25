@@ -1,0 +1,29 @@
+Machine Used,Machine Used By,Shared (Y/N),Machine Accessed During Weekdays (Y/N),Machine Accessed During Weekends
+M01,U01,N,Y,N
+M02,U02,N,Y,N
+M03,U03,N,Y,N
+M04,U04,N,Y,N
+M05,U05,N,Y,N
+M06,U06,N,Y,N
+M07,U07,N,Y,N
+M08,Multiple users,Y,Y,N
+M09,U09,N,Y,N
+M10,U10,N,Y,N
+M11,U11,N,Y,N
+M12,U12,N,Y,N
+M13,U13,N,Y,N
+M14,U14,N,Y,N
+M15,U15,N,Y,N
+M16,U16,N,Y,N
+M18,U18,N,Y,Y
+M19,Multiple users,Y,Y,Y
+M21,Multiple users,Y,Y,N
+M22,Multiple users,Y,Y,N
+M23,Multiple users,Y,Y,N
+M24,Multiple users,Y,Y,N
+M25,Multiple users,Y,Y,N
+M26,Multiple users,Y,Y,N
+M27,Multiple users,Y,Y,N
+M28,Multiple users,Y,Y,N
+M29,Multiple users,Y,Y,N
+M30,Multiple users,Y,Y,N

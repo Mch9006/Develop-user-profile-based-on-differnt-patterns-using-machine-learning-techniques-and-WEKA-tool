@@ -1,0 +1,133 @@
+SELECT User_Id, COUNT(Program)
+FROM dbo.DataMiningProject
+WHERE Record_Id = 2
+GROUP BY User_Id
+ORDER BY User_Id
+
+SELECT User_Id, COUNT(*) AS Programs_Executed_During_Working_Hours
+FROM dbo.DataMiningProject
+WHERE Record_Id = 2
+AND Start_Time BETWEEN '080000' AND '170000'
+GROUP BY User_Id
+ORDER BY User_Id
+
+SELECT DISTINCT User_Id,Machine_Id
+FROM dbo.DataMiningProject
+WHERE Record_Id = 2
+ORDER BY User_Id
+
+SELECT User_Id
+, COUNT(Program) As Total_Programs_Executed 
+FROM dbo.DataMiningProject
+WHERE Record_Id = 2
+GROUP By User_Id
+ORDER BY User_Id
+
+SELECT User_Id, SUM(CAST(Execution_Time AS INT))
+FROM dbo.DataMiningProject
+WHERE Record_Id = 2
+GROUP By User_Id
+ORDER BY User_Id
+
+SELECT User_Id
+	 , COUNT(File_Name) AS Total_Number_Of_Files_Accessed_During_Weekday
+FROM dbo.DataMiningProject
+WHERE DATE NOT IN ('090608','090708','091308','091408','092008','092108'
+,'092708'
+,'092808')
+AND Record_Id = 2
+GROUP BY User_Id
+ORDER BY User_Id
+
+SELECT User_Id,Data_Access, COUNT(*) AS Access_By_Type
+FROM dbo.DataMiningProject
+WHERE Record_Id = 2
+GROUP BY User_Id,Data_Access
+ORDER BY User_Id
+
+SELECT DISTINCT User_Id,Printer_Id 
+FROM dbo.DataMiningProject
+WHERE Record_Id = 2
+AND Printer_Id <> ''
+
+SELECT User_Id, SUM(CAST(Pages_Printed AS INT)) AS Total_Number_Of_Pages_Printed 
+FROM dbo.DataMiningProject
+WHERE Record_Id = 2
+GROUP BY User_Id
+ORDER BY User_Id
+
+SELECT User_Id
+	 , SUM(CAST(Pages_Printed AS INT)) AS Total_Number_Of_Pages_During_Weeday 
+FROM dbo.DataMiningProject
+WHERE Record_Id = 2
+AND DATE NOT IN ('090608','090708','091308','091408','092008','092108'
+,'092708'
+,'092808')
+GROUP BY User_Id
+ORDER BY User_Id
+
+SELECT DISTINCT User_Id
+			  , Email_Program_Id
+FROM dbo.DataMiningProject
+WHERE Email_Program_Id IS NOT NULL
+ORDER BY User_Id
+
+SELECT User_Id, COUNT(Email) AS Total_Number_Of_Emails
+FROM dbo.DataMiningProject
+WHERE Record_Id = 3
+GROUP BY User_Id
+ORDER BY User_Id
+
+SELECT User_Id,Email, COUNT(Email) AS Total_Number_Of_Emails
+FROM dbo.DataMiningProject
+WHERE Record_Id = 3
+GROUP BY User_Id, Email
+ORDER BY User_Id
+
+SELECT User_Id,Email_Status,SUM(Attachments) AS Total_Number_Of_Attachments
+FROM dbo.DataMiningProject
+WHERE Record_Id = 3
+GROUP BY User_Id, Email_Status
+ORDER BY User_Id
+
+SELECT User_Id,COUNT(Email) AS Total_Number_Of_Emails_During_Weekdays
+FROM dbo.DataMiningProject
+WHERE Record_Id = 3
+AND DATE NOT IN ('090608','090708','091308','091408','092008','092108'
+,'092708'
+,'092808')
+GROUP BY User_Id
+ORDER BY User_Id
+
+SELECT DISTINCT Email
+FROM dbo.DataMiningProject
+
+SELECT Email_Status,User_Id
+FROM dbo.DataMiningProject
+WHERE Email = 'mom@icare.com'
+
+SELECT DISTINCT Machine_Id,User_Id
+FROM dbo.DataMiningProject
+ORDER By Machine_Id
+
+SELECT Machine_Id
+	 , (CASE WHEN COUNT(*) <> 0 THEN 'Y'
+			 ELSE 'N'
+		END) AS Machine_Accessed_During_Weekday
+FROM dbo.DataMiningProject
+WHERE DATE NOT IN ('090608','090708','091308','091408','092008','092108'
+,'092708'
+,'092808')
+GROUP BY Machine_Id
+ORDER BY Machine_Id
+
+SELECT Machine_Id
+	 , (CASE WHEN COUNT(*) <> 0 THEN 'Y'
+			 ELSE 'N'
+		END) AS Machine_Accessed_During_Weekend
+FROM dbo.DataMiningProject
+WHERE DATE IN ('090608','090708','091308','091408','092008','092108'
+,'092708'
+,'092808')
+GROUP BY Machine_Id
+ORDER BY Machine_Id

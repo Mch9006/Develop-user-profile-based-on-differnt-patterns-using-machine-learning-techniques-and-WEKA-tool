@@ -1,0 +1,20 @@
+User_Id,Machines Used to access the files,Total Number of Files Accessed,Number of files accessed during weekdays,Number of files accessed during weekends,Number of Files opened with Read Access,Number of Files opened with read write access
+U01,M01,19,19,0,11,8
+U02,M02,28,28,0,16,12
+U03,M03,19,19,0,11,8
+U04,M04,28,28,0,16,12
+U05,M05,19,19,0,3,16
+U06,M06,28,28,0,7,21
+U07,M07,19,19,0,3,16
+U08,M08,28,28,0,7,21
+U09,M09,19,19,0,3,16
+U10,More than one machine used,28,28,0,7,21
+U11,More than one machine used,19,19,0,19,0
+U12,More than one machine used,19,19,0,19,0
+U13,More than one machine used,28,28,0,25,3
+U14,More than one machine used,19,19,0,19,0
+U15,More than one machine used,19,19,0,19,0
+U16,M16,13,13,0,12,1
+U17,M19,13,13,0,12,1
+U18,M18,10,0,10,9,1
+U19,M19,10,0,10,9,1

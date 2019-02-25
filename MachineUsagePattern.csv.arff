@@ -1,0 +1,37 @@
+@relation MachineUsagePattern
+
+@attribute 'Machine Used' {M01,M02,M03,M04,M05,M06,M07,M08,M09,M10,M11,M12,M13,M14,M15,M16,M18,M19,M21,M22,M23,M24,M25,M26,M27,M28,M29,M30}
+@attribute 'Machine Used By' {U01,U02,U03,U04,U05,U06,U07,'Multiple users',U09,U10,U11,U12,U13,U14,U15,U16,U18}
+@attribute 'Shared (Y/N)' {N,Y}
+@attribute 'Machine Accessed During Weekdays (Y/N)' {Y}
+@attribute 'Machine Accessed During Weekends' {N,Y}
+
+@data
+M01,U01,N,Y,N
+M02,U02,N,Y,N
+M03,U03,N,Y,N
+M04,U04,N,Y,N
+M05,U05,N,Y,N
+M06,U06,N,Y,N
+M07,U07,N,Y,N
+M08,'Multiple users',Y,Y,N
+M09,U09,N,Y,N
+M10,U10,N,Y,N
+M11,U11,N,Y,N
+M12,U12,N,Y,N
+M13,U13,N,Y,N
+M14,U14,N,Y,N
+M15,U15,N,Y,N
+M16,U16,N,Y,N
+M18,U18,N,Y,Y
+M19,'Multiple users',Y,Y,Y
+M21,'Multiple users',Y,Y,N
+M22,'Multiple users',Y,Y,N
+M23,'Multiple users',Y,Y,N
+M24,'Multiple users',Y,Y,N
+M25,'Multiple users',Y,Y,N
+M26,'Multiple users',Y,Y,N
+M27,'Multiple users',Y,Y,N
+M28,'Multiple users',Y,Y,N
+M29,'Multiple users',Y,Y,N
+M30,'Multiple users',Y,Y,N

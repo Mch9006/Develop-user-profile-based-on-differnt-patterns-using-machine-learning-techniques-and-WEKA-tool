@@ -1,0 +1,33 @@
+@relation loginpatterns
+
+@attribute UserId {U01,U02,U03,U04,U05,U06,U07,U08,U09,U10,U11,U12,U13,U14,U15,U16,U17,U18,U19}
+@attribute TotNumdaysUserLoggedin real
+@attribute LoginTime {9,MultipleTimes}
+@attribute LogoutTime {18,MultipleTimes}
+@attribute WeekdaytotalLogin real
+@attribute WeekendtotalLogin real 
+@attribute numberoftimesuserloggingINduringWorkinghours real
+@attribute numberoftimesuserlogginginbeforeafterWorkinghours real
+@attribute numberoftimesuserloggingOUTduringWorkinghours real
+@attribute numberoftimeuserloggingOUTbeforeafterWorkinghours real
+
+@data
+U01,22,9,18,22,0,0,22,22,0
+U02,22,MultipleTimes,MultipleTimes,22,0,7,15,12,10
+U03,22,9,18,22,0,0,22,22,0
+U04,22,MultipleTimes,MultipleTimes,22,0,6,16,12,10
+U05,22,9,18,22,0,0,22,22,0
+U06,22,MultipleTimes,MultipleTimes,22,0,6,16,12,10
+U07,22,9,18,22,0,0,22,22,0
+U08,22,MultipleTimes,MultipleTimes,22,0,6,16,12,10
+U09,22,9,18,22,0,0,22,22,0
+U10,22,MultipleTimes,MultipleTimes,22,0,6,16,12,10
+U11,22,9,18,22,0,0,22,22,0
+U12,22,MultipleTimes,MultipleTimes,22,0,8,14,20,2
+U13,22,MultipleTimes,MultipleTimes,22,0,8,14,20,2
+U14,22,MultipleTimes,MultipleTimes,22,0,8,14,20,2
+U15,21,MultipleTimes,MultipleTimes,21,0,8,13,20,1
+U16,22,MultipleTimes,MultipleTimes,22,0,8,14,20,2
+U17,22,MultipleTimes,MultipleTimes,22,0,8,14,20,2
+U18,8,MultipleTimes,MultipleTimes,1,7,1,7,7,1
+U19,8,MultipleTimes,MultipleTimes,1,7,1,7,7,1

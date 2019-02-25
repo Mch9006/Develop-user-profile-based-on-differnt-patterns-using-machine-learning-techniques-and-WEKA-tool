@@ -1,0 +1,30 @@
+@relation PrinterAccessPattern
+
+@attribute UserId {U01,U02,U03,U04,U05,U06,U07,U08,U09,U10,U11,U12,U13,U14,U15,U16,U17,U18,U19}
+@attribute MachinesUsedtoPrintPages {M01,M02,M03,M04,M05,M06,M07,M08,,M09,Morethanonemachineused,M16,M18,M19}
+@attribute PrinterIdusedforPrinting {PR1,PR2,PR3,PR4,PR5,PR6}
+@attribute TotalNumberofPagesPrinted real
+@attribute TotalPagesPrintedDuringWeekdays real
+@attribute TotalPagesPrintedDuringWeekends real 
+
+@data
+
+U01,M01,PR1,142,142,0
+U02,M02,PR1,160,160,0
+U03,M03,PR1,142,142,0
+U04,M04,PR1,160,160,0
+U05,M05,PR2,142,142,0
+U06,M06,PR2,160,160,0
+U07,M07,PR2,142,142,0
+U08,M08,PR2,160,160,0
+U09,M09,PR2,142,142,0
+U10,Morethanonemachineused,PR2,160,160,0
+U11,Morethanonemachineused,PR3,142,142,0
+U12,Morethanonemachineused,PR3,142,142,0
+U13,Morethanonemachineused,PR4,202,202,0
+U14,Morethanonemachineused,PR4,142,142,0
+U15,Morethanonemachineused,PR4,142,142,0
+U16,M16,PR4,92,92,0
+U17,M19,PR6,92,92,0
+U18,M18,PR5,56,0,56
+U19,M19,PR6,56,0,56

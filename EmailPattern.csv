@@ -1,0 +1,20 @@
+user_id,machine_id,Email program,Total number of emails,Email ID used more number of times,Email Status,Number of attachments sent/received,Email usage during week days ,Email usage during weekends,Is mom@icare.com used for sending/receiving emails
+U01,M01,E1,11,jones@pqr.com,Sent,10,11,0,No
+U02,M02,E1,12,jones@pqr.com,Sent,10,12,0,Yes
+U03,M03,E1,11,jones@pqr.com,Sent,10,11,0,No
+U04,M04,E1,12,jones@pqr.com,Sent,10,12,0,Yes
+U05,M05,E1,11,jones@pqr.com,Sent,10,11,0,No
+U06,M06,E1,12,smith@abc.org,Received,10,12,0,Yes
+U07,M07,E1,11,smith@abc.org,Sent,10,11,0,No
+U08,M08,E1,12,smith@abc.org,Received,10,12,0,Yes
+U09,M09,E3,11,smith@abc.org,Sent,10,11,0,No
+U10,More than one machine used,E3,12,smith@abc.org,Received,10,12,0,Yes
+U11,More than one machine used,E1,11,xyz@sai.org,Sent,10,11,0,No
+U12,More than one machine used,E1,11,xyz@sai.org,Sent,10,11,0,No
+U13,More than one machine used,E1,11,xyz@sai.org,Sent,10,11,0,No
+U14,More than one machine used,E1,11,xyz@sai.org,Sent,10,11,0,No
+U15,More than one machine used,E1,11,bob@xyz.com,Received,10,11,0,No
+U16,M16,E1,11,bob@xyz.com,Received,10,11,0,No
+U17,M19,E4,11,bob@xyz.com,Received,10,11,0,No
+U18,M18,E5,11,bob@xyz.com,Received,10,0,11,No
+U19,M19,E4,11,bob@xyz.com,Received,10,0,11,No

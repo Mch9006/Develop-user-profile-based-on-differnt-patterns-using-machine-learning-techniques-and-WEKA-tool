@@ -1,0 +1,34 @@
+@relation EmailPattern
+
+@attribute UserId {U01,U02,U03,U04,U05,U06,U07,U08,U09,U10,U11,U12,U13,U14,U15,U16,U17,U18,U19}
+@attribute MachinesUsedtoPrintPages {M01,M02,M03,M04,M05,M06,M07,M08,,M09,Morethanonemachineused,M16,M18,M19}
+@attribute EmailProgram {E1,E3,E4,E5}
+@attribute TotalNumberofEmails real
+@attribute EmailIDUsedManyTimes {jones@pqr.com,smith@abc.org,xyz@sai.org,bob@xyz.com}
+@attribute EmailStatus {Sent,Received}
+@attribute NumberofAttachmentsSsentReceived real
+@attribute EmailUsageDuringWeekdays real
+@attribute EmailUsageDuringWeekends real
+@attribute EmailIdUsedforSendingReceivingEmails {Yes,No}
+
+@data
+
+U01,M01,E1,11,jones@pqr.com,Sent,10,11,0,No
+U02,M02,E1,12,jones@pqr.com,Sent,10,12,0,Yes
+U03,M03,E1,11,jones@pqr.com,Sent,10,11,0,No
+U04,M04,E1,12,jones@pqr.com,Sent,10,12,0,Yes
+U05,M05,E1,11,jones@pqr.com,Sent,10,11,0,No
+U06,M06,E1,12,smith@abc.org,Received,10,12,0,Yes
+U07,M07,E1,11,smith@abc.org,Sent,10,11,0,No
+U08,M08,E1,12,smith@abc.org,Received,10,12,0,Yes
+U09,M09,E3,11,smith@abc.org,Sent,10,11,0,No
+U10,Morethanonemachineused,E3,12,smith@abc.org,Received,10,12,0,Yes
+U11,Morethanonemachineused,E1,11,xyz@sai.org,Sent,10,11,0,No
+U12,Morethanonemachineused,E1,11,xyz@sai.org,Sent,10,11,0,No
+U13,Morethanonemachineused,E1,11,xyz@sai.org,Sent,10,11,0,No
+U14,Morethanonemachineused,E1,11,xyz@sai.org,Sent,10,11,0,No
+U15,Morethanonemachineused,E1,11,bob@xyz.com,Received,10,11,0,No
+U16,M16,E1,11,bob@xyz.com,Received,10,11,0,No
+U17,M19,E4,11,bob@xyz.com,Received,10,11,0,No
+U18,M18,E5,11,bob@xyz.com,Received,10,0,11,No
+U19,M19,E4,11,bob@xyz.com,Received,10,0,11,No

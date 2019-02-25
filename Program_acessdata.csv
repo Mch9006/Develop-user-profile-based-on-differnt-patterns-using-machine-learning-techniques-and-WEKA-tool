@@ -1,0 +1,20 @@
+User_Id,Machines Used to execute the programs,Total number of programs executed,Number of programs executed during working hours,Number of programs executed after working hours,Total Execution Time
+U01,M01,19,18,1,11910
+U02,M02,28,27,1,28310
+U03,M03,19,18,1,11910
+U04,M04,28,27,1,28310
+U05,M05,19,18,1,11910
+U06,M06,28,27,1,28310
+U07,M07,19,18,1,11910
+U08,M08,28,27,1,28310
+U09,M09,19,18,1,11910
+U10,More than one machine used,28,27,1,28310
+U11,More than one machine used,19,18,1,11910
+U12,More than one machine used,19,15,4,11910
+U13,More than one machine used,28,23,5,18300
+U14,More than one machine used,19,15,4,11910
+U15,More than one machine used,19,15,4,11910
+U16,M16,13,12,1,8550
+U17,M19,13,12,1,8550
+U18,M18,10,9,1,6720
+U19,M19,10,9,1,6720

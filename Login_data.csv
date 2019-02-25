@@ -1,0 +1,34 @@
+@relation loginpatterns.
+
+@attribute UserId
+@attribute TotNumdaysUserLoggedin real
+@attribute LoginTime real
+@attribute Logout Time real
+@attribute Weekday total Login real
+@attribute
+@attribute
+@attribute
+@attribute
+@attribute
+
+@data
+,Weekend Total login,# of times user logging IN during Working hours,# of times user logging in before/after Working hours,# of times user logging OUT during Working hours,# of times user logging OUT before/after Working hours
+U01,22,9,18,22,0,0,22,22,0
+U02,22,Multiple Times,Multiple Times,22,0,7,15,12,10
+U03,22,9,18,22,0,0,22,22,0
+U04,22,Multiple Times,Multiple Times,22,0,6,16,12,10
+U05,22,9,18,22,0,0,22,22,0
+U06,22,Multiple Times,Multiple Times,22,0,6,16,12,10
+U07,22,9,18,22,0,0,22,22,0
+U08,22,Multiple Times,Multiple Times,22,0,6,16,12,10
+U09,22,9,18,22,0,0,22,22,0
+U10,22,Multiple Times,Multiple Times,22,0,6,16,12,10
+U11,22,9,18,22,0,0,22,22,0
+U12,22,Multiple Times,Multiple Times,22,0,8,14,20,2
+U13,22,Multiple Times,Multiple Times,22,0,8,14,20,2
+U14,22,Multiple Times,Multiple Times,22,0,8,14,20,2
+U15,21,Multiple Times,Multiple Times,21,0,8,13,20,1
+U16,22,Multiple Times,Multiple Times,22,0,8,14,20,2
+U17,22,Multiple Times,Multiple Times,22,0,8,14,20,2
+U18,8,Multiple Times,Multiple Times,1,7,1,7,7,1
+U19,8,Multiple Times,Multiple Times,1,7,1,7,7,1
